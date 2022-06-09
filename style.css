@@ -119,20 +119,20 @@ body::-webkit-scrollbar {
       padding-top: 20px;
       padding-bottom: 30px;
       width: 100vw;
-      min-height: 45px;
+      min-height: 38px;
       background-color: white;
     }
 
-    .button-R777 {
-      width: 222px;
-      height: 40px;
-      background: url('images/button1.svg') no-repeat;
-      display: inline-block;
-    }
+.button-click {
+  width: 172px;
+  height: 38px;
+  background: url('images/button1.svg') no-repeat;
+  display: inline-block;
+}
 
-    .button-R777:hover {
-      background: url('images/button2.svg') no-repeat;
-    }
+.button-click:hover {
+  background: url('images/button2.svg') no-repeat;
+}
 
 .middle{
   background-color: white;
