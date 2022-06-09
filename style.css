@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html, body {
+  font-family: Helvetica, Arial, 'Pretendard', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1.55;
+  text-align: left;
+  word-break: keep-all;
+  height: 100%;
+  background-image: url(images/img_03.jpg);
+  background-color: white;
+  background-size: cover;          
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  transition: 0.5s;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img{
+
+
+}
+p {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: white;
+}
+.p-block{
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+@media (min-width: 600px) {
+  .p-block { 
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 2vw;
+  }
+}
+.full-div{
+  width: 100vw;
+  height: 100vh;
+}
+.heading{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+}
+.head-img{
+  width: 100vw;
+}
+.full-box{
+  width: 100vw;
+  height: 100vh;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.button-div{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      padding-top: 20px;
+      width: 100vw;
+      min-height: 45px;
+      background-color: white;
+    }
+
+    .button-R777 {
+      width: 222px;
+      height: 40px;
+      background: url('images/button1.svg') no-repeat;
+      display: inline-block;
+    }
+
+    .button-R777:hover {
+      background: url('images/button2.svg') no-repeat;
+    }
+
+.middle{
+  background-color: white;
+  display: block;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
