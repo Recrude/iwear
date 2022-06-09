@@ -49,9 +49,11 @@ html, body {
   background-color: white;
   background-size: cover;          
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
-  transition: 0.5s;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
 ol, ul {
   list-style: none;
