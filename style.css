@@ -119,6 +119,9 @@ p {
   height: 100vh;
   background-color: white;
   margin: 0 auto;
+  display: block;
+  position: relative;
+  z-index: 2;
 }
 .head-img{
   width: 100vw;
@@ -158,4 +161,18 @@ body::-webkit-scrollbar {
   z-index: 1;
   width: 100vw;
   height: 100vh;
+}
+
+.bg{
+  position: fixed;
+  top: 0;  
+  left: 0;      
+  width: 100%;  
+  height: 100%; 
+  background-image: url("images/img_03.jpg");
+  background-size: cover;             
+  background-position: center center; 
+  transform: translateZ(0); 
+  will-change: transform; 
+  transition: 0.5s;
 }
