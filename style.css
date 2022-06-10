@@ -36,7 +36,12 @@ article, aside, details, figcaption, figure,
  footer, header, hgroup, menu, nav, section {
   display: block;
 }
-html, body {
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
+html,
+body {
   font-family: Helvetica, Arial, 'Pretendard', sans-serif;
   font-size: 16px;
   letter-spacing: 0;
@@ -47,15 +52,28 @@ html, body {
   height: 100%;
   background-image: url(images/img_03.jpg);
   background-color: white;
+  background-size: cover; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;          
+  -o-background-size: cover;        
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-attachment: fixed;
+
   transition: 0.5s;
+
 }
+@media (max-width: @iphone-screen) {
+  body {
+        background-attachment: scroll;
+    }
+}
+@media (max-width: @iphone-screen) {
+  background-attachment:inherit;    
+  background-size:cover;
+  -webkit-background-size:cover;
+}
+
 ol, ul {
   list-style: none;
 }
