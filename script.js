@@ -3,7 +3,7 @@ function setBackground(images) {
         var index = Math.floor(Math.random() * (urls.length));
         var target = document.getElementsByTagName("body")[0];
         target.style.backgroundImage = "url(" + urls[index] + ")";
-    }, 2000);
+    }, 1500);
 }
 
 function setBackgroundMobile(images) {
@@ -11,7 +11,7 @@ function setBackgroundMobile(images) {
         var index = Math.floor(Math.random() * (urls.length));
         var target = document.getElementsByClassName("bg")[0];
         target.style.backgroundImage = "url(" + urls[index] + ")";
-    }, 2000);
+    }, 1500);
 }
 
 var urls = [ 'images/img_01.jpg',
