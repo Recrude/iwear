@@ -82,5 +82,5 @@ var urls = [ 'images/img_01.jpg',
     ];
 
 
-setBackground();
+/setBackground();/
 setBackgroundMobile();
