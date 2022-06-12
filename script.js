@@ -11,7 +11,6 @@ preloading([
     'images/img_02.jpg',
     'images/img_03.jpg',
     'images/img_04.jpg',
-    'images/img_04.jpg',
     'images/img_05.jpg',
     'images/img_06.jpg',
     'images/img_07.jpg',
@@ -74,6 +73,7 @@ preloading([
     'images/img_064.jpg'
 ])
 
+/*
 function setBackground(images) {
     setInterval(function() {
         var index = Math.floor(Math.random() * (urls.length));
@@ -81,6 +81,7 @@ function setBackground(images) {
         target.style.backgroundImage = "url(" + urls[index] + ")";
     }, 1500);
 }
+*/
 
 function setBackgroundMobile(images) {
     setInterval(function() {
@@ -93,7 +94,6 @@ function setBackgroundMobile(images) {
 var urls = [ 'images/img_01.jpg',
     'images/img_02.jpg',
     'images/img_03.jpg',
-    'images/img_04.jpg',
     'images/img_04.jpg',
     'images/img_05.jpg',
     'images/img_06.jpg',
