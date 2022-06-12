@@ -65,7 +65,7 @@ body {
 }
 @media (max-width: @iphone-screen) {
   body {
-        background-attachment: scroll;
+        background-image: none;
     }
 }
 @media (max-width: @iphone-screen) {
